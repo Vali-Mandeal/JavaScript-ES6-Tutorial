@@ -25,7 +25,7 @@ function addItem(e) {
     // Create delete button element
     let delButton = document.createElement('button');
     // Add class to button elment
-    delButton.className = "btn btn-danger btn-sm float-right delte";
+    delButton.className = "btn btn-danger btn-sm float-right delete";
     // Append text node
     delButton.appendChild(document.createTextNode('X'));
 
